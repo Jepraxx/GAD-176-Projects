@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bRat: MonoBehaviour
+public class ratBro : bRat
 {
-
 }
