@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &371716329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8314961714864618209, guid: 47930adee087fd94e943324e472733dc, type: 3}
+  m_PrefabInstance: {fileID: 2013917789701022}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &373474065
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3934008bc137d044a3ee67091a63ab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ratName: 
+  moveSpeed: 10
+  distance: 1
+  target: {fileID: 371716329}
 --- !u!212 &373474067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -341,6 +350,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d923b55ea24ef049aba3073da9bcd3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ratName: 
+  moveSpeed: 10
+  distance: 1
+  target: {fileID: 371716329}
 --- !u!4 &1618342907
 Transform:
   m_ObjectHideFlags: 0
@@ -386,6 +399,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 888659a4fda5e2042bdd52b287ccb2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ratName: 
+  moveSpeed: 10
+  distance: 1
+  target: {fileID: 371716329}
 --- !u!212 &1760743642
 SpriteRenderer:
   m_ObjectHideFlags: 0
