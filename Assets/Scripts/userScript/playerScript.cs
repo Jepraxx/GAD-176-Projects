@@ -24,7 +24,7 @@ public class playerScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rBody2D.MovePosition(rBody2D.position + mveMent * mSpeed * Time.deltaTime);
+        rBody2D.MovePosition(rBody2D.position + mveMent * mSpeed * Time.deltaTime);// Used time.delta time so the movespeed will be consistent
     }
 }
 
