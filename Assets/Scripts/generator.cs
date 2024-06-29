@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/// <summary>
+/// This script will be responsible for generating rats later on
+/// </summary>
 
 public class generator : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
         
