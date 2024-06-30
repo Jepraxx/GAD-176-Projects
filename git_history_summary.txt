@@ -1,0 +1,18 @@
+* b6e9c81 (HEAD -> main, origin/main, origin/HEAD) Prefabs
+* faf9903 Fixed minor issue
+* 08814ee Added another behavior and functions and end scene
+* 20bea59 Comments
+* 60f45dc Fixed movement issue
+* 926bb18 Revision of script
+* ca72673 Revision of script
+* 9a240b6 Huge changes
+* b337569 Generator script and base enemy script
+* 1b9e097 Comments
+* bac7214 Added comments
+* 0c0b485 Generator script
+* 6e3d66a Added RB2D to the rat prefab
+* dc6c12b Created prefabs and more script
+* 809dacf Added player
+* 7f7402c Fixed gitignore
+* 190cbee added gitignore
+* 97f9d63 Initial commit
