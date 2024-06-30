@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class bRat : MonoBehaviour
 {
-    [SerializeField] private string ratName = "ratDad";
+    
     [SerializeField] protected float moveSpeed = 0.5f;
     [SerializeField] protected float distance = 20;
 
