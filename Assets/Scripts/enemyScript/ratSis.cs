@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+/// <summary>
+/// This script is entirely dedicated for ratSis and this 
+/// script would inherit from the base rat script and would override
+/// the move method that the base rat script.
+/// </summary>
 
 public class ratSis : bRat
 {
     
-    protected override void Start()
+    protected override void FindPlayer()
     {
-        base.Start(); // Call the base class Start method
+        base.FindPlayer(); // Call the base find player method
       
     }
 
@@ -17,11 +22,12 @@ public class ratSis : bRat
     {
         if (target != null && Vector2.Distance(transform.position, target.position) < distance)
         {
-            //ratSis moves in a zigzag pattern towards the player
-            float zigzagFrequency = 5f;
-            float zigzagMagnitude = 0.5f;
-            Vector2 zigzag = new Vector2(Mathf.Sin(Time.time * zigzagFrequency) * zigzagMagnitude, 0);
-            transform.position = Vector2.MoveTowards(transform.position + (Vector3)zigzag, target.position, moveSpeed * Time.deltaTime);
+            if (target != null && Vector2.Distance(transform.position, target.position) < distance)
+            {
+                //ratSis moves towards the player faster than the base class and ratBro
+                float modifiedSpeed = moveSpeed * 5f;
+                transform.position = Vector2.MoveTowards(transform.position, target.position, modifiedSpeed * Time.deltaTime);
+            }
         }
     }
 }

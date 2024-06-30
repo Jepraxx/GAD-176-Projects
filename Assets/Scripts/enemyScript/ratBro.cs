@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+/// <summary>
+/// This script is entirely dedicated for ratBro and this 
+/// script would inherit from the base rat script and would override
+/// the move method that the base rat script has
+/// </summary>
 public class ratBro : bRat
 {
     
-    protected override void Start()
+    protected override void FindPlayer()
     {
-        base.Start(); // Call the base class Start method
-        
+        base.FindPlayer(); // Call the base find player method
+
     }
 
     
