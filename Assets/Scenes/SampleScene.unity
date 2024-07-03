@@ -338,6 +338,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2048766904112162843, guid: 46f180d1d2d07a44b8c1a44e15b9d472, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 94976834}
     - target: {fileID: 7544655538885693220, guid: 46f180d1d2d07a44b8c1a44e15b9d472, type: 3}
       propertyPath: m_Name
       value: brat
